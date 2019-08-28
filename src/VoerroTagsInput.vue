@@ -11,10 +11,10 @@
             </span>
 
             <input type="text"
+                v-if="!disabled"
                 ref="taginput"
                 :placeholder="placeholder"
                 v-model="input"
-                :class="{'display-none': disabled}"
                 @keydown.enter.prevent="tagFromInput(false)"
                 @keydown.8="removeLastTag"
                 @keydown.down="nextSearchResult"
@@ -619,9 +619,5 @@ export default {
 <style>
 .tags-input-root {
     position: relative;
-}
-
-.display-none {
-  display: none;
 }
 </style>
