@@ -1,5 +1,5 @@
 {
-    "name": "@voerro/vue-tagsinput",
+    "name": "@bbasinski/vue-tagsinput",
     "version": "2.0.2",
     "description": "A simple tags input with typeahead made with Vue.js 2",
     "main": "src/main.js",
@@ -39,5 +39,5 @@
         "webpack": "^3.6.0",
         "webpack-dev-server": "^2.9.1"
     },
-    "repository": "https://github.com/voerro/vue-tagsinput"
+    "repository": "https://github.com/bbasinski/vue-tagsinput"
 }
